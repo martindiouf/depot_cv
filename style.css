@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #2b2b2b;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #2b6cb0;
+    margin: 20px 0;
+}
+
+*/
+.cv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2b6cb0;
+    flex-shrink: 0;
+}
+
+.identity {
+    text-align: right;
+}
+
+.identity h1 {
+    margin: 0;
+    font-size: 1.8;
+    color: #1a365d;
+}
+
+.identity h5 {
+    margin: 6px 0 0;
+    font-weight: normal;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+
+.cv-body {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 40px;
+}
+
+.gauche,
+.droite {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section h2 {
+    color: #1a365d;
+    border-bottom: 2px solid #2b6cb0;
+    padding-bottom: 4px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th {
+    background-color: #2b6cb0;
+    color: white;
+}
+
+
